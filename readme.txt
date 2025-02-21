@@ -1,0 +1,1 @@
+chatbot and bhujal.io are separate platforms required separate hosting

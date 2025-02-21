@@ -1,0 +1,139 @@
+Technical Stack Documentation - Bhujal.io
+
+1. Core Technologies
+------------------
+- React 18.3.1 - Modern UI development with hooks and functional components
+- TypeScript 5.5.3 - Static typing and enhanced developer experience
+- Vite 5.4.2 - Next-generation frontend tooling and build system
+- Node.js 18+ - JavaScript runtime environment
+
+2. Styling & UI
+-------------
+- Tailwind CSS 3.4.1 - Utility-first CSS framework
+- Custom CSS animations - Fade-in effects and transitions
+- Lucide React - Modern icon library
+- Responsive design - Mobile-first approach with desktop optimizations
+
+3. State Management
+-----------------
+- React Hooks - useState, useEffect for local state management
+- Props drilling for component communication
+- Context API ready for future global state needs
+
+4. Routing
+--------
+- React Router DOM 6.22.3 - Client-side routing
+- Dynamic route handling
+- Protected routes capability
+
+5. Data Visualization
+------------------
+- Chart.js 4.4.1 - Charting library
+- React-ChartJS-2 5.2.0 - React wrapper for Chart.js
+- Custom visualization components
+
+6. API Integration
+---------------
+- Axios 1.6.7 - HTTP client
+- Perplexity API - AI-powered chat functionality
+- RESTful API architecture
+- Custom API service modules
+
+7. PDF Generation
+--------------
+- html2pdf.js 0.10.1 - PDF report generation
+- Custom report templates
+- Dynamic content rendering
+
+8. Development Tools
+-----------------
+- ESLint 9.9.1 - Code linting
+- TypeScript ESLint - TypeScript-specific linting
+- Autoprefixer - CSS vendor prefixing
+- PostCSS - CSS transformations
+
+9. Project Structure
+-----------------
+src/
+├── components/     # Reusable UI components
+│   ├── ChatBot    # AI chat interface
+│   ├── Carousel   # Image slider
+│   └── ...        # Other components
+├── pages/         # Route components
+│   ├── Home
+│   ├── Terms
+│   └── ...
+├── services/      # API and business logic
+│   ├── perplexityApi
+│   └── reportGenerator
+└── assets/        # Static resources
+
+10. Code Organization
+------------------
+- Component-based architecture
+- Separation of concerns
+- Single responsibility principle
+- DRY (Don't Repeat Yourself) principle
+- SOLID principles adherence
+
+11. Performance Optimizations
+-------------------------
+- Code splitting via React Router
+- Lazy loading capabilities
+- Optimized bundle size
+- Efficient re-rendering with proper hook usage
+- Memoization ready for complex calculations
+
+12. Security Measures
+------------------
+- Environment variables for sensitive data
+- API key protection
+- Input sanitization
+- XSS prevention
+- CORS handling
+
+13. Accessibility
+--------------
+- ARIA labels support
+- Keyboard navigation
+- Screen reader compatibility
+- Color contrast compliance
+- Semantic HTML structure
+
+14. Browser Support
+----------------
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Progressive enhancement approach
+- Polyfills when necessary
+
+15. Testing Capabilities
+---------------------
+- Unit testing ready
+- Component testing support
+- Integration testing possible
+- End-to-end testing capability
+
+16. Deployment
+-----------
+- Static site deployment ready
+- Environment configuration
+- Build optimization
+- Production bundling
+
+17. Future Scalability
+-------------------
+- Modular architecture for easy expansion
+- Component reusability
+- Service layer abstraction
+- State management scalability
+- API versioning support
+
+18. Development Workflow
+---------------------
+- Feature-based development
+- Component-driven development
+- Iterative improvements
+- Code review ready
+- Documentation maintenance
+
+This technical stack is designed to provide a robust, scalable, and maintainable application while ensuring optimal performance and user experience. The architecture allows for easy expansion and modification of features while maintaining code quality and development efficiency.
